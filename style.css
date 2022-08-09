@@ -1,1 +1,68 @@
 /* styles for profile project */
+:root {
+    /* --purple: #a967e0; */
+    --purple: rgb(119, 112, 112);
+    --aqua: #67d2e0;
+    --goldenrod: #e6c147;
+}
+
+/* TBD: Find a good style to imitate */
+/* TBD: flashy stuff Jonathan taught. which to include lessons on? */
+
+/* default and page styles */
+* {
+    font-family: 'Actor', Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+/* header styles */
+header, subhead {
+    font-family: 'Acme', Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+}
+
+/* navigation bar styles */
+nav {
+    font-family: 'Actor', Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--purple);
+    box-sizing: border-box;
+    border: 5px solid var(--purple);
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.9;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    padding: 1rem;
+    width: 20%;
+}
+nav a:hover {
+    color: var(--purple);
+    background-color: white;
+}
+
+/* main styles */
+.quote {
+    font-style:italic;
+    font-size: x-large;
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 15rem;
+    border: .5rem solid var(--goldenrod);
+    padding: 1rem;
+    background-color: var(--aqua);
+    opacity: 0.9;
+}
+
+
+/* TBD: Media Query */
